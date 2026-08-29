@@ -1,0 +1,6 @@
+sources:
+  - akshare
+  # - tushare   # 可选：需要 TUSHARE_TOKEN 环境变量
+cache_dir: data/cache
+universe: csi300     # csi300 / csi500 / csi50
+backfill_years: 5

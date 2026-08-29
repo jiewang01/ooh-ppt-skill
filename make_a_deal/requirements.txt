@@ -1,0 +1,9 @@
+numpy>=1.23
+pandas>=2.0
+pyarrow>=14.0
+akshare>=1.12
+tushare>=1.2
+jsonschema>=4.0
+PyYAML>=6.0
+mcp>=1.0
+multiprocess>=0.70

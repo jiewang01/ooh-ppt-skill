@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+data/*.jsonl
+data/cache/
+*.parquet
+.venv/
+env/
+.mypy_cache/
+.pytest_cache/
+.DS_Store
