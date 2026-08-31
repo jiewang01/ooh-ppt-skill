@@ -4,7 +4,7 @@
 
 const fs = require("fs");
 const path = require("path");
-const { createCanvas, Image } = require("skia-canvas");
+const { Canvas, Image } = require("skia-canvas");
 
 const SCALE = 150; // px per inch
 const FONT_MAP = {
@@ -295,7 +295,7 @@ function drawTable(ctx, spec) {
 }
 
 async function renderSlide(specs, wIn, hIn, outPath) {
-  const canvas = createCanvas(wIn * SCALE, hIn * SCALE);
+  const canvas = new Canvas(wIn * SCALE, hIn * SCALE);
   const ctx = canvas.getContext("2d");
   ctx.fillStyle = "#FFFFFF";
   ctx.fillRect(0, 0, canvas.width, canvas.height);
@@ -328,7 +328,7 @@ async function renderSlide(specs, wIn, hIn, outPath) {
     }
   }
   await Promise.all(pending);
-  const out = await canvas.toBuffer("image/png");
+  const out = await canvas.toBuffer("png");
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, out);
 }
