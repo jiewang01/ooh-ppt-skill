@@ -1,0 +1,20 @@
+{
+  "sid": "s03",
+  "layout": "two-col",
+  "title": { "text": "市场竞争格局" },
+  "left": {
+    "bullets": [
+      { "text": "CR5 集中度 62%，同比 +3pct", "emphasis": true },
+      { "text": "头部两家产能扩张趋于谨慎" },
+      { "text": "细分赛道 A 增速领先行业" }
+    ]
+  },
+  "right": {
+    "chart": {
+      "ref": "assets/data/market_share.json",
+      "type": "bar",
+      "caption": "CR5 市占率（示意）"
+    }
+  },
+  "notes": "数据来源：行业协会 2025 年报（示意）"
+}
