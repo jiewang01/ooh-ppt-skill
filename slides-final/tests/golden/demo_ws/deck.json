@@ -1,0 +1,13 @@
+{
+  "deckId": "demo_m0",
+  "version": "0.1",
+  "size": "LAYOUT_WIDE",
+  "phase": "wireframe",
+  "slides": [
+    { "sid": "s01", "layout": "cover", "title": "2026 产品规划评审" },
+    { "sid": "s02", "layout": "bullets", "title": "议程" },
+    { "sid": "s03", "layout": "two-col", "title": "市场竞争格局" },
+    { "sid": "s04", "layout": "bullets", "title": "技术方案与架构决策" },
+    { "sid": "s05", "layout": "two-col", "title": "风险与对策" }
+  ]
+}

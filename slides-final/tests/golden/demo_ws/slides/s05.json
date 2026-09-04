@@ -1,0 +1,18 @@
+{
+  "sid": "s05",
+  "layout": "two-col",
+  "title": { "text": "风险与对策" },
+  "left": {
+    "bullets": [
+      { "text": "测量与真实渲染存在细微差异" },
+      { "text": "图表终稿需替换原生对象" }
+    ]
+  },
+  "right": {
+    "bullets": [
+      { "text": "M2 落地 golden 渲染比对" },
+      { "text": "M1 起预算硬闸兜底" }
+    ]
+  },
+  "notes": "M0 验收口径：双端断言全绿"
+}

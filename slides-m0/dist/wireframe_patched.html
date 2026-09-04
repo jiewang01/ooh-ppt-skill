@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>demo_m0 · 毛坯稿</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin:0; background:#F0F0F0; font-family:'Microsoft YaHei','PingFang SC','Noto Sans CJK SC',sans-serif; color:#333; }
+  .layout { display:flex; align-items:flex-start; }
+  .sidebar { position:sticky; top:0; height:100vh; width:260px; flex:none; background:#FAFAFA; border-right:1px solid #E0E0E0; padding:20px 16px; overflow:auto; }
+  .sidebar h1 { font-size:15px; margin:0 0 4px; }
+  .sidebar .meta { font-size:12px; color:#888; margin-bottom:16px; }
+  .phase-badge { display:inline-block; background:#333; color:#fff; font-size:11px; padding:2px 8px; border-radius:10px; margin-bottom:12px; }
+  .navitem { display:block; padding:8px 10px; margin:2px 0; border-radius:6px; text-decoration:none; color:#333; font-size:13px; line-height:1.5; }
+  .navitem:hover { background:#EAEAEA; }
+  .navitem .sid { font-family:ui-monospace,Menlo,Consolas,monospace; font-size:11px; color:#999; margin-right:6px; }
+  .navitem .navtitle { display:block; }
+  .lay-badge { display:inline-block; border:1px solid #CCC; border-radius:8px; padding:0 6px; font-size:10px; color:#888; margin-right:6px; vertical-align:1px; }
+  .main { flex:1; padding:28px 32px 60px; min-width:0; overflow-x:auto; }
+  .topbar { margin-bottom:22px; }
+  .topbar h1 { font-size:18px; margin:0 0 4px; }
+  .topbar p { font-size:12px; color:#888; margin:0; }
+  .slide-block { margin-bottom:36px; }
+  .slide-head { margin-bottom:8px; font-size:13px; color:#666; }
+  .slide-head h2 { display:inline; font-size:14px; margin:0 0 0 6px; color:#444; }
+  .slide-head .sid { font-family:ui-monospace,Menlo,Consolas,monospace; color:#999; }
+  .frame { position:relative; background:#FFFFFF; border:1px solid #D5D5D5; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+  .el { position:absolute; border:1px dashed #D5D5D5; overflow:hidden; line-height:1.35; }
+  .el:hover { border-color:#2F2F2F; }
+  .el.chart { border-style:dashed; }
+  .notes { font-size:12px; color:#999; margin:6px 2px 0; }
+  .footer { font-size:11px; color:#AAA; margin-top:30px; }
+</style>
+</head>
+<body>
+<div class="layout">
+  <aside class="sidebar">
+    <span class="phase-badge">毛坯稿 · wireframe</span>
+    <h1>demo_m0</h1>
+    <div class="meta">v0.1 · 5 页 · 1200×675px</div>
+    <a class="navitem" href="#s01"><span class="sid">s01</span><span class="lay-badge">cover</span><span class="navtitle">2026 产品规划评审</span></a>
+    <a class="navitem" href="#s02"><span class="sid">s02</span><span class="lay-badge">bullets</span><span class="navtitle">评审要点与安排</span></a>
+    <a class="navitem" href="#s03"><span class="sid">s03</span><span class="lay-badge">two-col</span><span class="navtitle">市场竞争格局</span></a>
+    <a class="navitem" href="#s04"><span class="sid">s04</span><span class="lay-badge">bullets</span><span class="navtitle">技术方案与架构决策</span></a>
+    <a class="navitem" href="#s05"><span class="sid">s05</span><span class="lay-badge">two-col</span><span class="navtitle">风险与对策</span></a>
+  </aside>
+  <main class="main">
+    <div class="topbar">
+      <h1>demo_m0 · 毛坯稿</h1>
+      <p>由 Deck DSL 元素树驱动，PPTX 端同源生成；悬停元素可查看 eid（后续按 eid 精准修改）。</p>
+    </div>
+    <section class="slide-block" id="s01">
+    <div class="slide-head">
+      <span class="sid">s01</span><span class="lay-badge">cover</span>
+      <h2>2026 产品规划评审</h2>
+    </div>
+    <div class="frame" style="width:1200px;height:675px;">
+      <div data-eid="s01_title" title="s01_title" class="el" style="left:81px;top:216px;width:1035px;height:144px;font-family:'Microsoft YaHei',sans-serif;font-size:49.96px;font-weight:700;color:#333333;">2026 产品规划评审</div>
+      <div data-eid="s01_subtitle" title="s01_subtitle" class="el" style="left:81px;top:378px;width:1035px;height:72px;font-family:'Microsoft YaHei',sans-serif;font-size:24.94px;font-weight:400;color:#808080;">声明式可编辑 PPT 管线 · M0 端到端演示</div>
+      <div data-eid="s01_meta" title="s01_meta" class="el" style="left:81px;top:585px;width:1035px;height:45px;font-family:'Microsoft YaHei',sans-serif;font-size:14.45px;font-weight:400;color:#808080;">2026-09-04 · 内部评审材料</div>
+    </div>
+    
+  </section>
+<section class="slide-block" id="s02">
+    <div class="slide-head">
+      <span class="sid">s02</span><span class="lay-badge">bullets</span>
+      <h2>评审要点与安排</h2>
+    </div>
+    <div class="frame" style="width:1200px;height:675px;">
+      <div data-eid="s02_title" title="s02_title" class="el" style="left:54px;top:41px;width:1092px;height:90px;font-family:'Microsoft YaHei',sans-serif;font-size:34.95px;font-weight:700;color:#333333;">评审要点与安排</div>
+      <div data-eid="s02_body" title="s02_body" class="el" style="left:54px;top:162px;width:1092px;height:459px;"><ul style="margin:0;padding:0 0 0 1.5em;font-family:'Microsoft YaHei',sans-serif;font-size:22.44px;line-height:1.45;"><li style="font-weight:400;color:#333333;">市场竞争格局回顾</li><li style="font-weight:400;color:#333333;">技术方案与架构决策</li><li style="font-weight:400;color:#333333;">资源与排期</li><li style="font-weight:400;color:#333333;">风险与对策</li></ul></div>
+    </div>
+    <p class="notes">备注：共 4 个议题，预计 40 分钟</p>
+  </section>
+<section class="slide-block" id="s03">
+    <div class="slide-head">
+      <span class="sid">s03</span><span class="lay-badge">two-col</span>
+      <h2>市场竞争格局</h2>
+    </div>
+    <div class="frame" style="width:1200px;height:675px;">
+      <div data-eid="s03_title" title="s03_title" class="el" style="left:54px;top:41px;width:1092px;height:90px;font-family:'Microsoft YaHei',sans-serif;font-size:34.95px;font-weight:700;color:#333333;">市场竞争格局</div>
+      <div data-eid="s03_left" title="s03_left" class="el" style="left:54px;top:162px;width:528px;height:459px;"><ul style="margin:0;padding:0 0 0 1.5em;font-family:'Microsoft YaHei',sans-serif;font-size:22.44px;line-height:1.45;"><li style="font-weight:700;color:#2F2F2F;">CR5 集中度 62%，同比 +3pct</li><li style="font-weight:400;color:#333333;">头部两家产能扩张趋于谨慎</li><li style="font-weight:400;color:#333333;">细分赛道 A 增速领先行业</li></ul></div>
+      <div data-eid="s03_right" title="s03_right" class="el chart" style="left:618px;top:162px;width:528px;height:459px;background:#F7F7F7;">
+      <div title="公司 A: 18" style="position:absolute;left:642px;top:252px;width:58px;height:306px;background:#2F2F2F;opacity:.82;"></div><div title="公司 B: 15" style="position:absolute;left:748px;top:303px;width:58px;height:255px;background:#2F2F2F;opacity:.82;"></div><div title="公司 C: 11" style="position:absolute;left:853px;top:371px;width:58px;height:187px;background:#2F2F2F;opacity:.82;"></div><div title="公司 D: 9" style="position:absolute;left:959px;top:405px;width:58px;height:153px;background:#2F2F2F;opacity:.82;"></div><div title="公司 E: 9" style="position:absolute;left:1065px;top:405px;width:58px;height:153px;background:#2F2F2F;opacity:.82;"></div>
+      <div style="position:absolute;left:618px;top:563px;width:528px;height:27px;text-align:center;font-family:'Microsoft YaHei',sans-serif;font-size:10px;color:#808080;white-space:nowrap;">公司 A 18 · 公司 B 15 · 公司 C 11 · 公司 D 9 · 公司 E 9</div>
+      <div style="position:absolute;left:618px;top:590px;width:528px;height:31px;text-align:center;font-family:'Microsoft YaHei',sans-serif;font-size:11.25px;color:#808080;">CR5 市占率（示意）</div>
+    </div>
+    </div>
+    <p class="notes">备注：数据来源：行业协会 2025 年报（示意）</p>
+  </section>
+<section class="slide-block" id="s04">
+    <div class="slide-head">
+      <span class="sid">s04</span><span class="lay-badge">bullets</span>
+      <h2>技术方案与架构决策</h2>
+    </div>
+    <div class="frame" style="width:1200px;height:675px;">
+      <div data-eid="s04_title" title="s04_title" class="el" style="left:54px;top:41px;width:1092px;height:90px;font-family:'Microsoft YaHei',sans-serif;font-size:34.95px;font-weight:700;color:#333333;">技术方案与架构决策</div>
+      <div data-eid="s04_body" title="s04_body" class="el" style="left:54px;top:162px;width:1092px;height:459px;"><ul style="margin:0;padding:0 0 0 1.5em;font-family:'Microsoft YaHei',sans-serif;font-size:22.44px;line-height:1.45;"><li style="font-weight:400;color:#333333;">DSL 分片存储，单页独立生成</li><li style="font-weight:400;color:#333333;">双渲染器共享同一元素树</li><li style="font-weight:400;color:#333333;">渲染时强制布局断言</li><li style="font-weight:400;color:#333333;">内容与样式彻底解耦</li></ul></div>
+    </div>
+    <p class="notes">备注：详细设计见架构文档第 3 节</p>
+  </section>
+<section class="slide-block" id="s05">
+    <div class="slide-head">
+      <span class="sid">s05</span><span class="lay-badge">two-col</span>
+      <h2>风险与对策</h2>
+    </div>
+    <div class="frame" style="width:1200px;height:675px;">
+      <div data-eid="s05_title" title="s05_title" class="el" style="left:54px;top:41px;width:1092px;height:90px;font-family:'Microsoft YaHei',sans-serif;font-size:34.95px;font-weight:700;color:#333333;">风险与对策</div>
+      <div data-eid="s05_left" title="s05_left" class="el" style="left:54px;top:162px;width:528px;height:459px;"><ul style="margin:0;padding:0 0 0 1.5em;font-family:'Microsoft YaHei',sans-serif;font-size:22.44px;line-height:1.45;"><li style="font-weight:400;color:#333333;">测量与真实渲染存在细微差异</li><li style="font-weight:400;color:#333333;">图表终稿需替换原生对象</li></ul></div>
+      <div data-eid="s05_right" title="s05_right" class="el" style="left:618px;top:162px;width:528px;height:459px;"><ul style="margin:0;padding:0 0 0 1.5em;font-family:'Microsoft YaHei',sans-serif;font-size:22.44px;line-height:1.45;"><li style="font-weight:400;color:#333333;">M2 落地 golden 渲染比对</li><li style="font-weight:400;color:#333333;">M1 起预算硬闸兜底</li></ul></div>
+    </div>
+    <p class="notes">备注：M0 验收口径：双端断言全绿</p>
+  </section>
+    <p class="footer">slides-dsl M0 · phase=wireframe · 图表为草稿形态，终稿档替换为原生可编辑对象（M2）</p>
+  </main>
+</div>
+</body>
+</html>

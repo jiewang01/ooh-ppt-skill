@@ -1,0 +1,41 @@
+{
+  "fonts": { "head": "Microsoft YaHei", "body": "Microsoft YaHei" },
+  "colors": {
+    "ink": "333333",
+    "muted": "808080",
+    "line": "BBBBBB",
+    "fill": "F7F7F7",
+    "accent": "2F2F2F",
+    "bg": "FFFFFF"
+  },
+  "styles": {
+    "coverTitle":    { "font": "head", "fontSize": 40, "minFontSize": 24, "bold": true,  "color": "ink" },
+    "coverSubtitle": { "font": "head", "fontSize": 20, "minFontSize": 14, "bold": false, "color": "muted" },
+    "coverMeta":     { "font": "body", "fontSize": 14, "minFontSize": 10, "bold": false, "color": "muted" },
+    "pageTitle":     { "font": "head", "fontSize": 28, "minFontSize": 18, "bold": true,  "color": "ink" },
+    "body":          { "font": "body", "fontSize": 18, "minFontSize": 12, "bold": false, "color": "ink" },
+    "caption":       { "font": "body", "fontSize": 12, "minFontSize": 9,  "bold": false, "color": "muted" }
+  },
+  "layouts": {
+    "cover": {
+      "zones": {
+        "title":    { "x": 0.9, "y": 2.4, "w": 11.5, "h": 1.6, "style": "coverTitle" },
+        "subtitle": { "x": 0.9, "y": 4.2, "w": 11.5, "h": 0.8, "style": "coverSubtitle" },
+        "meta":     { "x": 0.9, "y": 6.5, "w": 11.5, "h": 0.5, "style": "coverMeta" }
+      }
+    },
+    "bullets": {
+      "zones": {
+        "title": { "x": 0.6, "y": 0.45, "w": 12.13, "h": 1.0, "style": "pageTitle" },
+        "body":  { "x": 0.6, "y": 1.8,  "w": 12.13, "h": 5.1,  "style": "body" }
+      }
+    },
+    "two-col": {
+      "zones": {
+        "title": { "x": 0.6,  "y": 0.45, "w": 12.13, "h": 1.0, "style": "pageTitle" },
+        "left":  { "x": 0.6,  "y": 1.8,  "w": 5.87,  "h": 5.1,  "style": "body" },
+        "right": { "x": 6.87, "y": 1.8,  "w": 5.87,  "h": 5.1,  "style": "body" }
+      }
+    }
+  }
+}

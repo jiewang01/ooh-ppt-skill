@@ -1,0 +1,10 @@
+{
+  "title": "CR5 市占率（示意）",
+  "series": [
+    { "label": "公司 A", "value": 18 },
+    { "label": "公司 B", "value": 15 },
+    { "label": "公司 C", "value": 11 },
+    { "label": "公司 D", "value": 9 },
+    { "label": "公司 E", "value": 9 }
+  ]
+}
